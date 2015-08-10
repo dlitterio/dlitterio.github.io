@@ -112,7 +112,7 @@ aside {
     text-transform: uppercase;
     font-size: 13px;
     font-weight: 700;
-    color: #224679;
+    color: #333;
 }
 
 .navbar-default .nav > li>a:hover,
@@ -122,7 +122,7 @@ aside {
 
 .navbar-default .nav > li.active>a,
 .navbar-default .nav>li.active>a:focus {
-    color: #f05f40!important;
+    color: #009125 !important;
     background-color: transparent;
 }
 
@@ -164,22 +164,22 @@ aside {
 
     .navbar-default.affix .navbar-header .navbar-brand {
         font-size: 14px;
-        color: #f05f40;
+        color: #009125;
     }
 
     .navbar-default.affix .navbar-header .navbar-brand:hover,
     .navbar-default.affix .navbar-header .navbar-brand:focus {
-        color: #eb3812;
+        color: #009125;
     }
 
     .navbar-default.affix .nav > li>a,
     .navbar-default.affix .nav>li>a:focus {
-        color: #222;
+        color: #333;
     }
 
     .navbar-default.affix .nav > li>a:hover,
     .navbar-default.affix .nav>li>a:focus:hover {
-        color: #f05f40;
+        color: #009125;
     }
 }
 
