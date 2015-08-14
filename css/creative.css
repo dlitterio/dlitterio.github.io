@@ -31,7 +31,7 @@ a {
     transition: all .35s;
 }
 
-.text-faded-about{
+#about{
     text-align: left;
 }
 
@@ -73,6 +73,7 @@ i {
 
 .text-faded {
     color: rgba(0,0,0,.7);
+    text-align: left;
 }
 
 section {
