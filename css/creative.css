@@ -31,6 +31,10 @@ a {
     transition: all .35s;
 }
 
+.text-faded-about{
+    text-align: left;
+}
+
 a:hover,
 a:focus {
     color: #000000;
