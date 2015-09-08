@@ -123,6 +123,7 @@ aside {
 
 .navbar-default .navbar-header .navbar-brand {
     width: 50%;
+    padding: 5px 0 0 0;
     /*text-transform: uppercase;
     font-family: 'quattrocento sans','Helvetica Neue',Arial,sans-serif;
     font-weight: 500;
@@ -132,6 +133,16 @@ aside {
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
     color: #eb3812;
+}
+
+.navbar-brand svg{
+    height: 40px;
+    width: auto;
+}
+
+.navbar-brand svg *{
+    fill: black;
+    stroke: black;
 }
 
 .navbar-default .nav > li>a,
@@ -169,6 +180,14 @@ aside {
         color: rgba(255,255,255,.7);
     }
 
+    .navbar-brand svg *{
+        fill: white;
+        stroke: white;
+    }
+    .navbar-brand .page-scroll{
+        fill: #000;
+        stroke: #000;
+    }
     .navbar-default .navbar-header .navbar-brand:hover,
     .navbar-default .navbar-header .navbar-brand:focus {
         color: #fff;
