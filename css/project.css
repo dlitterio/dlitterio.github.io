@@ -14,9 +14,11 @@ body {
     font-family: 'quattrocento sans','Helvetica Neue',Arial,sans-serif;
 }
 
-p{
+p.text-muted{
     font-family: 'josefin sans';
-    font-size: 48px;
+    font-size: 18px;
+    line-height: 2;
+    text-align: left;
 }
 
 hr {
@@ -55,7 +57,9 @@ h5,
 h6 {
     font-family: 'quattrocento sans','Helvetica Neue',Arial,sans-serif;
 }
-
+h2{
+    font-size: 40px;
+}
 h2.hero{
     font-family: 'quattrocento sans','Helvetica Neue',Arial,sans-serif;
     font-size: 2em;
@@ -69,8 +73,7 @@ p {
     line-height: 1.5;
     color: #fff;
 }
-#theProject{
-    background-color: #d3d3d3;
+#theProject_header{
     padding: 20px 0;
     color: #ffffff;
   background: -webkit-linear-gradient(45deg, #4584D9, #4CE2A1); /* For Safari 5.1 to 6.0 */
@@ -159,7 +162,7 @@ aside {
 }
 
 @media(min-width:768px) {
-    .navbar-default {
+    #projectNav .navbar-default {
         border-color: rgba(255,255,255,.3);
         background-color: transparent;
     }
@@ -171,46 +174,46 @@ aside {
 
     .navbar-default .navbar-header .navbar-brand:hover,
     .navbar-default .navbar-header .navbar-brand:focus {
-        color: #fff;
+        color: #009125;
     }
 
-    .navbar-default .nav > li>a,
+    #projectNav .navbar-default .nav > li>a,
     .navbar-default .nav>li>a:focus {
         color: rgba(255,255,255,.7);
     }
 
-    .navbar-default .nav > li>a:hover,
+    #projectNav .navbar-default .nav > li>a:hover,
     .navbar-default .nav>li>a:focus:hover {
-        color: #fff;
+        color: #009125;
     }
 
-    .navbar-default.affix {
+    #projectNav .navbar-default.affix {
         border-color: rgba(34,34,34,.05);
         background-color: #fff;
     }
 
-    .navbar-default.affix .navbar-header .navbar-brand {
+    #projectNav .navbar-default.affix .navbar-header .navbar-brand {
         font-size: 14px;
         color: #009125;
     }
 
-    .navbar-default.affix .navbar-header .navbar-brand:hover,
+    #projectNav .navbar-default.affix .navbar-header .navbar-brand:hover,
     .navbar-default.affix .navbar-header .navbar-brand:focus {
         color: #009125;
     }
 
-    .navbar-default.affix .nav > li>a,
+    #projectNav .navbar-default.affix .nav > li>a,
     .navbar-default.affix .nav>li>a:focus {
-        color: #333;
+        color: #009125;
     }
 
-    .navbar-default.affix .nav > li>a:hover,
+    #projectNav .navbar-default.affix .nav > li>a:hover,
     .navbar-default.affix .nav>li>a:focus:hover {
         color: #009125;
     }
 }
 
-header {
+header.index {
     position: relative;
     width: 100%;
     min-height: auto;
@@ -298,17 +301,18 @@ header .header-content .header-content-inner p {
 }
 .service-box {
     margin: 50px auto 0;
-    max-width: 400px;
+    max-width: 80%;
 }
 
 @media(min-width:992px) {
     .service-box {
         margin: 20px auto 0;
+        width: 60%
     }
 }
 
 .service-box p {
-    margin-bottom: 0;
+    margin-bottom: 20%;
 }
 
 .portfolio-box {
@@ -454,7 +458,7 @@ fieldset[disabled] .btn-default.active {
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
     border-color: #ed431f;
-    color: #fff;
+    color: #009125;
     background-color: #f5f5f5;
 }
 
@@ -511,17 +515,17 @@ fieldset[disabled] .btn-primary.active {
 
 ::selection {
     text-shadow: none;
-    color: #fff;
+    color: #009125;
     background: #222;
 }
 
 img::selection {
-    color: #fff;
+    color: #009125;
     background: 0 0;
 }
 
 img::-moz-selection {
-    color: #fff;
+    color: #009125;
     background: 0 0;
 }
 
