@@ -79,7 +79,7 @@ p {
     vertical-align: top;
     margin: 0 10px;
 }
-#theProject_header, aside{
+#theProject_pulse, #theProject_sms, aside{
     padding: 20px 0;
     color: #ffffff;
     background-color: #274660; 
@@ -94,7 +94,7 @@ i {
     background-color: #fff;
 }
 
-.bg-dark {
+.sms-bg-dark .pulse-bg-dark {
     color: #fff;
     background-color: #274660;
     padding: 10% 0;
