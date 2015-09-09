@@ -134,8 +134,9 @@ aside {
 .no-padding {
     padding: 0;
 }
-#contact{
+#footer{
     background-color: #333333;
+    padding: 20px 0;
 }
 .navbar-default {
     border-color: rgba(34,34,34,.05);
