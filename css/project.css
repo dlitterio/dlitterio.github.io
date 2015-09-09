@@ -323,19 +323,19 @@ header .header-content .header-content-inner p {
     margin: 20px 0;
 }
 .service-box {
-    margin: 50px auto 0;
+    margin: 50px auto ;
     max-width: 80%;
 }
 
 @media(min-width:992px) {
     .service-box {
-        margin: 20px auto 0;
+        margin: 50px auto;
         width: 60%
     }
 }
 
 .service-box p {
-    margin-bottom: 20%;
+    margin-bottom: 10%;
 }
 
 .portfolio-box {
