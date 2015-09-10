@@ -81,13 +81,14 @@ p {
 }
 .styleTiles{
     display: inline-block;
-    width: 10%;
+    width: 20%;
     margin: 10px 10px 30px;
 }
 
 .final{
     display: inline-block;
     margin: 20px auto;
+    width: 80%;
 }
 .devices{
     height: 200px;
