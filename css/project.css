@@ -79,7 +79,11 @@ p {
     vertical-align: top;
     margin: 0 10px;
 }
-
+.styleTiles{
+    display: inline-block;
+    width: 25%;
+    margin: 10px;
+}
 .devices{
     height: 200px;
     padding: 0 20px;
@@ -207,7 +211,7 @@ aside {
 
     #projectNav .navbar-default .nav > li>a,
     .navbar-default .nav>li>a:focus {
-        color: rgba(255,255,255,.7);
+        color: #009125;
     }
 
     #projectNav .navbar-default .nav > li>a:hover,
