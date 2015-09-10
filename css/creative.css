@@ -69,15 +69,12 @@ p {
     line-height: 1.5;
     color: #fff;
 }
-#theProject{
-    background-color: #d3d3d3;
-    padding: 20px 0;
-    color: #ffffff;
-  background: -webkit-linear-gradient(45deg, #4584D9, #4CE2A1); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(45deg, #4584D9, #4CE2A1); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(45deg, #4584D9, #4CE2A1); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(45deg, #4584D9, #4CE2A1); /* Standard syntax */
+#portfolio{
+    background-color: #333;
+    padding: 40px 0;
+
 }
+
 i {
     color:#fff;
 }
@@ -333,8 +330,10 @@ header .header-content .header-content-inner p {
 .portfolio-box {
     display: block;
     position: relative;
-    margin: 0 auto;
+    margin: 0 10px;
     max-width: 650px;
+    box-shadow: 0px 5px 15px rgba(33,33,33,0.8);
+    border: #000 4px solid;
 }
 
 .portfolio-box .portfolio-box-caption {
