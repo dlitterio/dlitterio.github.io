@@ -79,6 +79,11 @@ p {
     vertical-align: top;
     margin: 0 10px;
 }
+
+.devices{
+    height: 200px;
+    padding: 0 20px;
+}
 #theProject_sms, aside{
     padding: 20px 0;
     color: #ffffff;
