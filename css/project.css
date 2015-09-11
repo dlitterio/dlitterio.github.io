@@ -77,10 +77,19 @@ p {
     color: #fff;
 }
 
+.row{
+    width: 100%;
+}
 .images{
     box-shadow: 0px 5px 15px rgba(33,33,33,0.6);
     vertical-align: top;
-    margin: 0 10px;
+    margin: 0 auto;
+}
+
+.images-phone{
+    display: inline;
+    vertical-align: top;
+    margin: 0 30px;
 }
 .styleTiles{
     display: inline-block;
@@ -103,6 +112,12 @@ p {
     background-color: #274660; 
 }
 
+#theProject_selfie{
+    padding: 20px 0;
+    color: #ffffff;
+    background-image: url(../portfolio-pages/selfie/divider_background.png);
+    background-position: center;
+}
 #theProject_pulse {
     padding: 20px 0;
     color: #ffffff;
@@ -125,6 +140,12 @@ i {
     color: #fff;
     background-color: #274660;
     padding: 10% 0;
+}
+
+.selfie-bg-dark  {
+    color: #fff;
+    background-image: url(../portfolio-pages/selfie/divider_background.png);
+    background-position: center;
 }
 
 .pulse-bg-dark {
