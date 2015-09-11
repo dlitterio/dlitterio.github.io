@@ -90,6 +90,7 @@ p {
     display: inline;
     vertical-align: top;
     margin: 0 30px;
+    width: 25%;
 }
 .styleTiles{
     display: inline-block;
