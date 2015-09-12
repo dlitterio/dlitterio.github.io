@@ -60,6 +60,13 @@ h6 {
 h2{
     font-size: 40px;
 }
+
+.selfie-bg-dark h3{
+    background-image: url(../portfolio-pages/selfie/divider_background.png);
+    padding: 5% 0;
+    margin: 5% 0;
+    font-size: 30px;
+}
 h4{
     text-align: left;
 }
@@ -76,7 +83,9 @@ p {
     line-height: 1.5;
     color: #fff;
 }
-
+#process{
+    margin-top: 5%;
+}
 .row{
     width: 100%;
 }
@@ -89,7 +98,7 @@ p {
 .images-phone{
     display: inline;
     vertical-align: top;
-    margin: 0 30px;
+    margin: 15px 30px;
     width: 25%;
 }
 .styleTiles{
@@ -138,14 +147,14 @@ i {
 }
 
 .sms-bg-dark  {
-    color: #fff;
-    background-color: #274660;
+    color: #333;
+    
     padding: 10% 0;
 }
 
 .selfie-bg-dark  {
     color: #fff;
-    background-image: url(../portfolio-pages/selfie/divider_background.png);
+    /*background-image: url(../portfolio-pages/selfie/divider_background.png);*/
     background-position: center;
 }
 
@@ -364,7 +373,7 @@ header .header-content .header-content-inner p {
 }
 .service-box {
     margin: 50px auto ;
-    max-width: 80%;
+    max-width: 65%;
 }
 
 @media(min-width:992px) {
