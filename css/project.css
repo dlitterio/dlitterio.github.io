@@ -95,8 +95,15 @@ p {
 .images-phone{
     display: inline;
     vertical-align: top;
-    margin: 15px 30px;
+    margin: 15px 5px;
     height: 500px;
+}
+
+.images-org{
+    display: inline;
+    vertical-align: top;
+    margin: 15px 30px;
+    width: 80%;
 }
 .styleTiles{
     display: inline-block;
