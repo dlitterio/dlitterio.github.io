@@ -8,10 +8,7 @@ html,
 body {
     width: 100%;
     height: 100%;
-}
-
-body {
-    font-family: 'quattrocento sans','Helvetica Neue',Arial,sans-serif;
+     font-family: 'quattrocento sans','Helvetica Neue',Arial,sans-serif;
 }
 
 p.text-muted{
@@ -99,7 +96,7 @@ p {
     display: inline;
     vertical-align: top;
     margin: 15px 30px;
-    width: 25%;
+    height: 500px;
 }
 .styleTiles{
     display: inline-block;
