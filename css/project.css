@@ -90,6 +90,7 @@ p {
     box-shadow: 0px 5px 15px rgba(33,33,33,0.6);
     vertical-align: top;
     margin: 0 auto;
+
 }
 
 .images-phone{
@@ -107,14 +108,14 @@ p {
 }
 .styleTiles{
     display: inline-block;
-    width: 20%;
+    width: 300px;
     margin: 10px 10px 30px;
 }
 
 .final{
     display: inline-block;
     margin: 20px auto;
-    width: 80%;
+    width: 500px;
 }
 .devices{
     height: 200px;
@@ -152,14 +153,15 @@ i {
 
 .sms-bg-dark  {
     color: #333;
-    
     padding: 10% 0;
+    width: 100%;
 }
 
 .selfie-bg-dark  {
     color: #fff;
     /*background-image: url(../portfolio-pages/selfie/divider_background.png);*/
     background-position: center;
+    width: 100%;
 }
 
 .pulse-bg-dark {
@@ -169,6 +171,7 @@ i {
     background: -moz-linear-gradient(45deg, #4584D9, #4CE2A1); /* For Firefox 3.6 to 15 */
     background: linear-gradient(45deg, #4584D9, #4CE2A1); /* Standard syntax */
     padding: 10% 0;
+
 }
 
 .text-faded {
