@@ -68,7 +68,10 @@ h3{
     font-size: 40px;
 }
 h4{
-    text-align: left;
+    color: #333;
+    font-size: 40px;
+    margin-top: 15%;
+    padding: 30px;
 }
 h2.hero{
     font-family: 'quattrocento sans','Helvetica Neue',Arial,sans-serif;
@@ -111,7 +114,7 @@ p {
 }
 .styleTiles{
     display: inline-block;
-    width: 300px;
+    width: 170px;
     margin: 10px 10px 30px;
 }
 
