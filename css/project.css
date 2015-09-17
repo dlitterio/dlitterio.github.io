@@ -92,7 +92,9 @@ p {
     color: #fff;
 }
 
-
+.headerLogo{
+    height: 200px;
+}
 }
 #process{
     margin-top: 5%;
