@@ -151,7 +151,7 @@ p {
 }
 .devices{
     height: 200px;
-    padding: 0 20px;
+    padding: 0;
 }
 #theProject_sms{
     padding: 20px 0;
