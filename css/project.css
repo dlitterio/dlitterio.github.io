@@ -129,7 +129,7 @@ p {
     vertical-align: top;
     margin: 15px 5px;
     height: auto;
-    width: 100%;
+    width: 30%;
 }
 
 .images-org{
@@ -422,7 +422,13 @@ header .header-content .header-content-inner p {
         
     }
 }
-
+.images-phone{
+    display: inline;
+    vertical-align: top;
+    margin: 15px 5px;
+    height: auto;
+    width: 30%;
+}
 .service-box p {
     margin-bottom: 10%;
 }
