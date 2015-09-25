@@ -422,13 +422,7 @@ header .header-content .header-content-inner p {
         
     }
 }
-.images-phone{
-    display: inline;
-    vertical-align: top;
-    margin: 15px 5px;
-    height: auto;
-    width: 300px;
-}
+
 .service-box p {
     margin-bottom: 10%;
 }
