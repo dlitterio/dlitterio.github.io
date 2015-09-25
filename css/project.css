@@ -17,6 +17,7 @@ p.text-muted{
     line-height: 2;
     text-align: left;
     margin-top: 30px;
+    letter-spacing: .4px;
 }
 
 hr {
@@ -421,7 +422,7 @@ header .header-content .header-content-inner p {
 
 @media(min-width:992px) {
     .service-box {
-        margin: 50px auto;
+        margin: 75px auto;
         max-width: 65%;
         
     }
