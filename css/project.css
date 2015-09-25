@@ -20,9 +20,10 @@ p.text-muted{
 }
 
 hr {
-    max-width: 50px;
+    max-width: 150px;
     border-color: #fff;
     border-width: 3px;
+    padding: 10px 0; 
 }
 
 hr.light {
@@ -73,7 +74,10 @@ h2{
 }
 h3{
     font-size: 40px;
-
+}
+h3.project{
+    font-size: 24px;
+    margin-top: -5px;
 }
 .myRole{
     font-size: 28px;
