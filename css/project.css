@@ -190,7 +190,8 @@ i {
 
 .sms-bg-dark  {
     color: #333;
-    background-color: #14D3A8;
+    border-bottom: 100px solid #274660;
+    border-top: 50px solid #274660;
     padding: 10% 0;
     width: 100%;
 }
