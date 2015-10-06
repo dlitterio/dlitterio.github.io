@@ -133,8 +133,8 @@ p {
     display: inline;
     vertical-align: top;
     margin: 15px 5px;
-    height: auto;
-    width: 30%;
+    height: 500px;
+    width: auto;
 }
 
 .images-org{
