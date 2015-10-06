@@ -143,9 +143,16 @@ p {
     margin: 15px 30px;
     width: 80%;
 }
-.styleTiles{
+.styleTiles-horizontal{
     display: inline-block;
-    width: 350px;
+    height: 250px;
+    width: auto;
+    margin: 10px 10px 30px;
+}
+.styleTiles-vertical{
+    display: inline-block;
+    height: 350px;
+    width: auto;
     margin: 10px 10px 30px;
 }
 
@@ -471,7 +478,11 @@ header .header-content .header-content-inner p {
         max-width: 67%;
         
     }
-}
+    .service-box-tiles {
+        margin: 75px auto;
+        max-width: 80%;
+        
+    }
 
 .service-box p {
     margin-bottom: 10%;
