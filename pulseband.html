@@ -26,6 +26,7 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/project.css" type="text/css">
+    <link rel="stylesheet" href="css/blueimp-gallery.min.css">
    
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -173,15 +174,37 @@
                         <p class="text-muted">The final logo comes from the idea of a relationship between Pulseband and its user. Hence the two hearts represent that relationship connection forming the buttefly concept.</p>
                         <img src="portfolio-pages/pulseband/pulseband-butterflogo.png" alt="">
                     </div>
-                    <!--<div class="service-box">
+                    <div class="service-box">
                         <h3>UX Research</h3>
                         <p class="text-muted">Helping with user research, I conducted a couple interviews with a CNA, a former phlebotomist and one heart disease patient. I recorded and took notes so the UX designers could synthesize and analyze the findings.</p>
-                        <img src="portfolio-pages/pulseband/" alt="">
+                        <div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
+                            <div class="slides"></div>
+                            <h3 class="title"></h3>
+                            <a class="prev">‹</a>
+                            <a class="next">›</a>
+                            <a class="close">×</a>
+                            <a class="play-pause"></a>
+                            <ol class="indicator"></ol>
+                        </div>
+                            <div id="links">
+                            <a href="portfolio-pages/pulseband/emily-interview1.jpg" title="Pulseband Research" >
+                                <img class="research img-responsive" src="portfolio-pages/pulseband/emily-interview1.jpg" alt="">
+                            </a>
+                            <a href="portfolio-pages/pulseband/emily-interview2.jpg" title="Pulseband Research">
+                             <img class="research img-responsive" src="portfolio-pages/pulseband/emily-interview2.jpg" alt="">
+                            </a>
+                            <a href="portfolio-pages/pulseband/emily-interview3.jpg" title="Pulseband Research">
+                                <img class="research img-responsive" src="portfolio-pages/pulseband/emily-interview3.jpg" alt="">
+                            </a>
+                            </div>
+                        </div>
+                       
+                        
                          <div class="service-box">
                         <h3>Mobile App Style Tiles</h3>
                         <p class="text-muted">Helping with user research, I conducted a couple interviews with a CNA, a former phlebotomist and one heart disease patient. I recorded and took notes so the UX designers could synthesize and analyze the findings.</p>
                         <img class="images" src="portfolio-pages/pulseband/dashboardstyles.png" alt="">
-                        </div>-->
+                        </div>
                     </div>
                 </div>
             </div>
@@ -208,6 +231,17 @@
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/jquery.fittext.js"></script>
     <script src="js/wow.min.js"></script>
+    <script src="js/blueimp-gallery.min.js"></script><script src="js/blueimp-gallery.min.js"></script>
+    <script>
+        document.getElementById('links').onclick = function (event) {
+        event = event || window.event;
+        var target = event.target || event.srcElement,
+            link = target.src ? target.parentNode : target,
+            options = {index: link, event: event},
+            links = this.getElementsByTagName('a');
+        blueimp.Gallery(links, options);
+        };
+    </script>
 
     <!-- Custom Theme JavaScript -->
     <script src="js/creative.js"></script>
