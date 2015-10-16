@@ -144,6 +144,13 @@ p {
     width: auto;
 }
 
+.images-app{
+    display: inline;
+    vertical-align: top;
+    margin: 15px 5px;
+    height: auto;
+    width: 200px;
+}
 .images-org{
     display: inline;
     vertical-align: top;
@@ -483,6 +490,11 @@ header .header-content .header-content-inner p {
     .service-box {
         margin: 75px auto;
         max-width: 67%;
+        
+    }
+        .service-box-full {
+        margin: 75px auto;
+        max-width: 100%;
         
     }
     .service-box-tiles {
