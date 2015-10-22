@@ -262,6 +262,7 @@ aside {
     padding: 20px 0;
 }
 .navbar-default {
+    margin-right: 25px;
     border-color: rgba(34,34,34,.05);
     font-family: 'quattrocento sans','Helvetica Neue',Arial,sans-serif;
     background-color: #fff;
