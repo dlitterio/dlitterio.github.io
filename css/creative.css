@@ -17,7 +17,10 @@ body {
 p{
     font-family: 'josefin sans';
     font-weight: 300;
-    font-size: 48px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #fff;
 }
 
 hr {
@@ -64,11 +67,7 @@ h2.hero{
     color: #d3d3d3;
 }
 
-p {
-    margin-bottom: 20px;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #fff;
+
 }
 #portfolio{
     background-color: #333;
