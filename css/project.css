@@ -144,8 +144,12 @@ p {
     height: 500px;
     width: auto;
 }
-.DMI{
+.Edelman{
     width:30%;
+    padding: 10px;
+}
+.Edelman_Barilla{
+    width:50%;
     padding: 10px;
 }
 .images-app{
