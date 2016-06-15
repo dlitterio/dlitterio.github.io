@@ -144,7 +144,10 @@ p {
     height: 500px;
     width: auto;
 }
-
+.DMI{
+    width:30%;
+    padding: 10px;
+}
 .images-app{
     display: inline;
     vertical-align: top;
