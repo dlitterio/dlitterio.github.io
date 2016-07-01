@@ -20,6 +20,20 @@ p.text-muted{
     margin-top: 30px;
     letter-spacing: .4px;
 }
+p.text-muted-edelman{
+    font-family: 'josefin sans';
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 2;
+    text-align: left;
+    margin-top: 30px;
+    letter-spacing: .4px;
+    color: #fff;
+}
+.container_role{
+    background-color: #1b82c4;
+    color: #fff;
+}
 
 hr {
     max-width: 150px;
@@ -149,7 +163,7 @@ p {
     padding: 10px;
 }
 .Edelman_Bertolli{
-    width:50%;
+    width:75%;
     padding: 10px;
 }
 .Edelman_Rotel{
@@ -157,7 +171,7 @@ p {
     padding: 10px;
 }
 .Edelman_Internal{
-    width:30%;
+    width:45%;
     padding: 10px;
 }
 .images-app{
@@ -501,6 +515,12 @@ header .header-content .header-content-inner p {
 .service-box {
     margin: 50px auto ;
     max-width: 90%;
+}
+.service-box_role {
+    margin: 50px auto ;
+    max-width: 90%;
+    background-color: #1b82c4;
+    color: #fff;
 }
 
 @media(min-width:992px) {
