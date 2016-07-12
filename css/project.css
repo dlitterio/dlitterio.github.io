@@ -34,7 +34,10 @@ p.text-muted-edelman{
     background-color: #1b82c4;
     color: #fff;
 }
-
+.container-fluid{
+    padding-right: 30px;
+    color: #fff;
+}
 hr {
     max-width: 150px;
     border-color: #fff;
@@ -170,7 +173,7 @@ p {
     width:30%;
     padding: 10px;
 }
-.Edelman_Internal{
+.Edelman_Internal, .Edelman_bs{
     width:45%;
     padding: 10px;
 }
