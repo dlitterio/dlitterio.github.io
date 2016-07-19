@@ -125,6 +125,9 @@ p {
 .headerLogo{
     height: 200px;
 }
+.headerLogo-Panduit{
+    width: 500px;
+    padding: 30px; 
 }
 #process{
     margin-top: 5%;
@@ -160,6 +163,10 @@ p {
     margin: 15px 5px;
     height: 500px;
     width: auto;
+}
+.Panduit{
+    width:100%;
+    padding: 20px;
 }
 .Edelman{
     width:30%;
@@ -212,6 +219,11 @@ p {
     height: 200px;
     padding: 0;
 }
+#theProject_Panduit{
+    padding: 20px 0;
+    color: #ffffff;
+    background-color: #070707; 
+}
 #theProject_sms{
     padding: 20px 0;
     color: #ffffff;
@@ -253,6 +265,13 @@ i {
     color: #333;
     border-bottom: 100px solid #274660;
     border-top: 50px solid #274660;
+    padding: 10% 0;
+    width: 100%;
+}
+.Panduit-bg-dark  {
+    color: #333;
+    border-bottom: 100px solid #070707;
+    border-top: 50px solid #070707;
     padding: 10% 0;
     width: 100%;
 }
