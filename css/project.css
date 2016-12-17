@@ -63,6 +63,11 @@ a.testResult {
     transition: all .35s;
 }
 
+i.FUTPsocial{
+    color: #000000;
+    margin-bottom: 20px;
+    padding: 0 10px;
+}
 
 #about{
     text-align: left;
@@ -107,6 +112,15 @@ h4{
     font-size: 40px;
     margin-top: 15%;
     padding: 30px;
+}
+
+h4.FLW{
+    display: inline-block;
+    color: #333;
+    font-size: 20px;
+    margin-top: 5%;
+    padding: 5px;
+    text-align: center;
 }
 h2.hero{
     font-family: 'quattrocento sans','Helvetica Neue',Arial,sans-serif;
@@ -196,6 +210,23 @@ p {
     vertical-align: top;
     margin: 15px 30px;
     width: 80%;
+}
+img.FLWD{
+    display: block;
+    vertical-align: top;
+    margin: 15px 10px;
+    width: 25%;
+}
+img.FLW{
+    display: block;
+    vertical-align: top;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+ul.FLW{
+    list-style: none;
+    text-align: center;
 }
 .styleTiles-horizontal{
     display: inline-block;
@@ -529,7 +560,7 @@ header .header-content .header-content-inner p {
     padding-top: 20px;
 }
 #social{
-    margin-top: 30px;
+    margin-bottom: 30px;
 }
 #resume{
     margin: 20px 0;
